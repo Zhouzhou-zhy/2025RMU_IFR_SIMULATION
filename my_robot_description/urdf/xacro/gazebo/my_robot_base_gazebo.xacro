@@ -70,7 +70,7 @@
                     <cylinder radius="${wheel_radius}" length = "${wheel_length}"/>
                 </geometry>
             </collision>
-            <cylinder_inertial_matrix  m="${wheel_mass}" r="${wheel_radius}" h="${wheel_length}" />
+            <xacro:cylinder_inertial_matrix  m="${wheel_mass}" r="${wheel_radius}" h="${wheel_length}" />
         </link>
 
         <gazebo reference="${prefix}_wheel_link">
@@ -154,7 +154,7 @@
                     <cylinder length="${base_length}" radius="${base_radius}"/>
                 </geometry>
             </collision>   
-            <cylinder_inertial_matrix  m="${base_mass}" r="${base_radius}" h="${base_length}" />
+            <xacro:cylinder_inertial_matrix  m="${base_mass}" r="${base_radius}" h="${base_length}" />
         </link>
 
         <gazebo reference="base_link">
