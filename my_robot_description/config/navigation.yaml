@@ -1,0 +1,23 @@
+
+# controller_server:
+#   ros__parameters:
+#     controller_frequency: 10.0  # 控制频率
+#     use_sim_time: true               
+    
+#     # Maximum speeds
+#     max_vel_x: 5.0               # 最大线速度
+#     max_vel_y: 0.0               # 最大横向速度
+#     max_vel_theta: 5.0           # 最大角速度
+
+#     # Acceleration
+#     min_vel_x: 0.0               # 设置为0以允许机器人减速
+#     min_vel_y: 0.0               # 最小横向速度
+#     min_vel_theta: -1.0          # 最小角速度
+
+#     #     # Acceleration settings
+#     # max_accel_x: 3.0             # 最大加速
+#     # max_accel_theta: 2.0         # 最大角加速
+#     # max_decel_x: 2.0             # 最大减速
+#     # max_decel_theta: 2.0         # 最大角减速
+
+

@@ -1,26 +1,27 @@
 <?xml version="1.0"?>
-<robot name="my_control" xmlns:xacro="http://www.ros.org/wiki/xacro">
+<robot name="my_robot" xmlns:xacro="http://www.ros.org/wiki/xacro">
 <gazebo>
-  <plugin name="differential_drive_controller" filename="libgazebo_ros_diff_drive.so">
-
-   
-    <updateRate>100</updateRate>
-    <left_joint>left_wheel_joint1</left_joint>
-    <right_joint>right_wheel_joint1</right_joint>
+    <plugin name="mybot_controller" filename="libgazebo_ros_diff_drive.so">
+       <ros>
+            <remapping>odom:=odom</remapping>
+        </ros>
+    <commandTopic>cmd_vel</commandTopic>
+    <publish_odom>true</publish_odom>
+    <publish_odom_tf>true</publish_odom_tf>
+    <publish_wheel_tf>true</publish_wheel_tf>
+    <odometry_frame>odom</odometry_frame>
+    <robot_base_frame>base_footprint</robot_base_frame>
+    <publishTf>true</publishTf>
+    <publishWheelJointState>true</publishWheelJointState>
+    <legacyMode>false</legacyMode>
+    <updateRate>30</updateRate>
+    <left_joint>left_wheel_joint</left_joint>
+    <right_joint>right_wheel_joint</right_joint>
     <wheel_separation>0.180</wheel_separation>
     <wheel_diameter>0.05</wheel_diameter>
     <wheelAcceleration>10</wheelAcceleration>
     <wheelTorque>100</wheelTorque>
-    <commandTopic>cmd_vel</commandTopic>
-    <odometryTopic>odom</odometryTopic>
-    <odometryFrame>odom</odometryFrame>
-    <robotBaseFrame>base_footprint</robotBaseFrame>
-    <odometrySource>1</odometrySource>
-    <publishWheelTF>false</publishWheelTF>
-    <publishTF>true</publishTF>
-    <publishOdom>true</publishOdom>
-    <publishWheelJointState>true</publishWheelJointState>
-    <legacyMode>false</legacyMode>
-  </plugin>
-</gazebo>
+    <rosDebugLevel>na</rosDebugLevel>
+    </plugin>
+  </gazebo>
 </robot>

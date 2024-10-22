@@ -1,0 +1,35 @@
+-- The C compiler identification is GNU 9.4.0
+-- The CXX compiler identification is GNU 9.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found urdf: 2.4.0 (/opt/ros/foxy/share/urdf/cmake)
+-- Found xacro: 2.0.7 (/opt/ros/foxy/share/xacro/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/zhy/my_robot/my_robot_description/build/my_robot_description
+-- Install configuration: ""
+-- Installing: /home/zhy/my_robot/my_robot_description/install/my_robot_description/share/my_robot_description/urdf
+-- Installing: /home/zhy/my_robot/my_robot_description/install/my_robot_description/share/my_robot_description/urdf/xacro
+-- Installing: /home/zhy/my_robot/my_robot_description/install/my_robot_description/share/my_robot_description/urdf/xacro/gazebo
+-- Installing: /home/zhy/my_robot/my_robot_description/install/my_robot_description/share/my_robot_description/urdf/xacro/gazebo/my_robot_gazebo.xacro
+-- Installing: /home/zhy/my_robot/my_robot_description/install/my_robot_description/share/my_robot_description/urdf/xacro/gazebo/my_robot_with_laser_gazebo.xacro
+-- Installing: /home/zhy/my_robot/my_robot_description/install/my_robot_description/share/my_robot_description/urdf/xacro/gazebo/my_robot_base_gazebo.urdf
+-- Installing: /home/zhy/my_robot/my_robot_description/install/my_robot_description/share/my_robot_description/urdf/xacro/gazebo/my_robot_base_gazebo.xacro
+-- Installing: /home/zhy/my_robot/my_robot_description/install/my_robot_description/share/my_robot_description/urdf/xacro/sensors
+-- Installing: /home/zhy/my_robot/my_robot_description/install/my_robot_description/share/my_robot_description/urdf/xacro/sensors/lidar.xacro
+-- Installing: /home/zhy/my_robot/my_robot_description/install/my_robot_description/share/my_robot_description/urdf/xacro/sensors/lidar_gazebo.xacro
+-- Installing: /home/zhy/my_robot/my_robot_description/install/my_robot_description/share/my_robot_description/launch
+-- Installing: /home/zhy/my_robot/my_robot_description/install/my_robot_description/share/my_robot_description/launch/gazebo_launch.py

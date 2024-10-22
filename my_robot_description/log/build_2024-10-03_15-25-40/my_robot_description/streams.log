@@ -1,0 +1,57 @@
+[0.008s] Invoking command in '/home/zhy/my_robot/my_robot_description/build/my_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/zhy/my_robot/my_robot_description -DCMAKE_INSTALL_PREFIX=/home/zhy/my_robot/my_robot_description/install/my_robot_description
+[0.299s] -- The C compiler identification is GNU 9.4.0
+[0.782s] -- The CXX compiler identification is GNU 9.4.0
+[1.055s] -- Check for working C compiler: /usr/bin/cc
+[1.276s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.276s] -- Detecting C compiler ABI info
+[1.482s] -- Detecting C compiler ABI info - done
+[1.488s] -- Detecting C compile features
+[1.488s] -- Detecting C compile features - done
+[1.489s] -- Check for working CXX compiler: /usr/bin/c++
+[1.728s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.728s] -- Detecting CXX compiler ABI info
+[1.961s] -- Detecting CXX compiler ABI info - done
+[1.967s] -- Detecting CXX compile features
+[1.967s] -- Detecting CXX compile features - done
+[1.968s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.983s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.983s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.077s] -- Found urdf: 2.4.0 (/opt/ros/foxy/share/urdf/cmake)
+[4.771s] -- Found xacro: 2.0.7 (/opt/ros/foxy/share/xacro/cmake)
+[4.800s] -- Configuring done
+[4.802s] -- Generating done
+[4.802s] -- Build files have been written to: /home/zhy/my_robot/my_robot_description/build/my_robot_description
+[4.805s] Invoked command in '/home/zhy/my_robot/my_robot_description/build/my_robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/zhy/my_robot/my_robot_description -DCMAKE_INSTALL_PREFIX=/home/zhy/my_robot/my_robot_description/install/my_robot_description
+[4.807s] Invoking command in '/home/zhy/my_robot/my_robot_description/build/my_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/zhy/my_robot/my_robot_description/build/my_robot_description -- -j32 -l32
+[4.827s] Invoked command in '/home/zhy/my_robot/my_robot_description/build/my_robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/zhy/my_robot/my_robot_description/build/my_robot_description -- -j32 -l32
+[4.844s] Invoking command in '/home/zhy/my_robot/my_robot_description/build/my_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/zhy/my_robot/my_robot_description/build/my_robot_description
+[4.848s] -- Install configuration: ""
+[4.848s] -- Installing: /home/zhy/my_robot/my_robot_description/install/my_robot_description/share/my_robot_description/urdf
+[4.849s] -- Installing: /home/zhy/my_robot/my_robot_description/install/my_robot_description/share/my_robot_description/urdf/xacro
+[4.849s] -- Installing: /home/zhy/my_robot/my_robot_description/install/my_robot_description/share/my_robot_description/urdf/xacro/gazebo
+[4.849s] -- Installing: /home/zhy/my_robot/my_robot_description/install/my_robot_description/share/my_robot_description/urdf/xacro/gazebo/my_robot_control.xacro
+[4.849s] -- Installing: /home/zhy/my_robot/my_robot_description/install/my_robot_description/share/my_robot_description/urdf/xacro/gazebo/my_robot_with_laser_gazebo.xacro
+[4.849s] -- Installing: /home/zhy/my_robot/my_robot_description/install/my_robot_description/share/my_robot_description/urdf/xacro/gazebo/my_robot_base_gazebo.urdf
+[4.849s] -- Installing: /home/zhy/my_robot/my_robot_description/install/my_robot_description/share/my_robot_description/urdf/xacro/gazebo/my_robot_base_gazebo.xacro
+[4.849s] -- Installing: /home/zhy/my_robot/my_robot_description/install/my_robot_description/share/my_robot_description/launch
+[4.850s] -- Installing: /home/zhy/my_robot/my_robot_description/install/my_robot_description/share/my_robot_description/launch/gazebo_launch.py
+[4.850s] -- Installing: /home/zhy/my_robot/my_robot_description/install/my_robot_description/share/my_robot_description/world
+[4.850s] -- Installing: /home/zhy/my_robot/my_robot_description/install/my_robot_description/share/my_robot_description/world/2023_v_4_1.world
+[4.850s] -- Installing: /home/zhy/my_robot/my_robot_description/install/my_robot_description/share/my_robot_description/meshes
+[4.850s] -- Installing: /home/zhy/my_robot/my_robot_description/install/my_robot_description/share/my_robot_description/meshes/base_link.stl
+[4.850s] -- Installing: /home/zhy/my_robot/my_robot_description/install/my_robot_description/share/ament_index/resource_index/package_run_dependencies/my_robot_description
+[4.850s] -- Installing: /home/zhy/my_robot/my_robot_description/install/my_robot_description/share/ament_index/resource_index/parent_prefix_path/my_robot_description
+[4.850s] -- Installing: /home/zhy/my_robot/my_robot_description/install/my_robot_description/share/my_robot_description/environment/ament_prefix_path.sh
+[4.850s] -- Installing: /home/zhy/my_robot/my_robot_description/install/my_robot_description/share/my_robot_description/environment/ament_prefix_path.dsv
+[4.850s] -- Installing: /home/zhy/my_robot/my_robot_description/install/my_robot_description/share/my_robot_description/environment/path.sh
+[4.851s] -- Installing: /home/zhy/my_robot/my_robot_description/install/my_robot_description/share/my_robot_description/environment/path.dsv
+[4.851s] -- Installing: /home/zhy/my_robot/my_robot_description/install/my_robot_description/share/my_robot_description/local_setup.bash
+[4.851s] -- Installing: /home/zhy/my_robot/my_robot_description/install/my_robot_description/share/my_robot_description/local_setup.sh
+[4.851s] -- Installing: /home/zhy/my_robot/my_robot_description/install/my_robot_description/share/my_robot_description/local_setup.zsh
+[4.851s] -- Installing: /home/zhy/my_robot/my_robot_description/install/my_robot_description/share/my_robot_description/local_setup.dsv
+[4.851s] -- Installing: /home/zhy/my_robot/my_robot_description/install/my_robot_description/share/my_robot_description/package.dsv
+[4.851s] -- Installing: /home/zhy/my_robot/my_robot_description/install/my_robot_description/share/ament_index/resource_index/packages/my_robot_description
+[4.851s] -- Installing: /home/zhy/my_robot/my_robot_description/install/my_robot_description/share/my_robot_description/cmake/my_robot_descriptionConfig.cmake
+[4.851s] -- Installing: /home/zhy/my_robot/my_robot_description/install/my_robot_description/share/my_robot_description/cmake/my_robot_descriptionConfig-version.cmake
+[4.851s] -- Installing: /home/zhy/my_robot/my_robot_description/install/my_robot_description/share/my_robot_description/package.xml
+[4.852s] Invoked command in '/home/zhy/my_robot/my_robot_description/build/my_robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/zhy/my_robot/my_robot_description/build/my_robot_description

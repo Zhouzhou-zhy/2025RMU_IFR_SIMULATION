@@ -1,0 +1,47 @@
+[0.011s] Invoking command in '/home/zhy/my_robot/my_robot_description/build/my_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/zhy/my_robot/my_robot_description -DCMAKE_INSTALL_PREFIX=/home/zhy/my_robot/my_robot_description/install/my_robot_description
+[0.497s] -- The C compiler identification is GNU 9.4.0
+[1.123s] -- The CXX compiler identification is GNU 9.4.0
+[1.459s] -- Check for working C compiler: /usr/bin/cc
+[1.719s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.730s] -- Detecting C compiler ABI info
+[1.987s] -- Detecting C compiler ABI info - done
+[2.002s] -- Detecting C compile features
+[2.004s] -- Detecting C compile features - done
+[2.009s] -- Check for working CXX compiler: /usr/bin/c++
+[2.306s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[2.306s] -- Detecting CXX compiler ABI info
+[2.561s] -- Detecting CXX compiler ABI info - done
+[2.566s] -- Detecting CXX compile features
+[2.567s] -- Detecting CXX compile features - done
+[2.589s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[2.605s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[2.605s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.715s] -- Found urdf: 2.4.0 (/opt/ros/foxy/share/urdf/cmake)
+[5.925s] -- Found xacro: 2.0.7 (/opt/ros/foxy/share/xacro/cmake)
+[5.968s] -- Configuring done
+[5.970s] -- Generating done
+[5.970s] -- Build files have been written to: /home/zhy/my_robot/my_robot_description/build/my_robot_description
+[5.973s] Invoked command in '/home/zhy/my_robot/my_robot_description/build/my_robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/zhy/my_robot/my_robot_description -DCMAKE_INSTALL_PREFIX=/home/zhy/my_robot/my_robot_description/install/my_robot_description
+[5.976s] Invoking command in '/home/zhy/my_robot/my_robot_description/build/my_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/zhy/my_robot/my_robot_description/build/my_robot_description -- -j32 -l32
+[5.997s] Invoked command in '/home/zhy/my_robot/my_robot_description/build/my_robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/zhy/my_robot/my_robot_description/build/my_robot_description -- -j32 -l32
+[6.016s] Invoking command in '/home/zhy/my_robot/my_robot_description/build/my_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/zhy/my_robot/my_robot_description/build/my_robot_description
+[6.020s] -- Install configuration: ""
+[6.020s] -- Installing: /home/zhy/my_robot/my_robot_description/install/my_robot_description/share/my_robot_description/urdf
+[6.020s] -- Installing: /home/zhy/my_robot/my_robot_description/install/my_robot_description/share/my_robot_description/urdf/xacro
+[6.020s] -- Installing: /home/zhy/my_robot/my_robot_description/install/my_robot_description/share/my_robot_description/urdf/xacro/gazebo
+[6.020s] -- Installing: /home/zhy/my_robot/my_robot_description/install/my_robot_description/share/my_robot_description/urdf/xacro/gazebo/my_robot_gazebo.xacro
+[6.021s] -- Installing: /home/zhy/my_robot/my_robot_description/install/my_robot_description/share/my_robot_description/urdf/xacro/gazebo/my_robot_with_laser_gazebo.xacro
+[6.022s] -- Installing: /home/zhy/my_robot/my_robot_description/install/my_robot_description/share/my_robot_description/urdf/xacro/gazebo/my_robot_base_gazebo.urdf
+[6.022s] -- Installing: /home/zhy/my_robot/my_robot_description/install/my_robot_description/share/my_robot_description/urdf/xacro/gazebo/my_robot_base_gazebo.xacro
+[6.023s] -- Installing: /home/zhy/my_robot/my_robot_description/install/my_robot_description/share/my_robot_description/urdf/xacro/sensors
+[6.023s] -- Installing: /home/zhy/my_robot/my_robot_description/install/my_robot_description/share/my_robot_description/urdf/xacro/sensors/lidar.xacro
+[6.023s] -- Installing: /home/zhy/my_robot/my_robot_description/install/my_robot_description/share/my_robot_description/urdf/xacro/sensors/lidar_gazebo.xacro
+[6.024s] -- Installing: /home/zhy/my_robot/my_robot_description/install/my_robot_description/share/my_robot_description/launch
+[6.024s] -- Installing: /home/zhy/my_robot/my_robot_description/install/my_robot_description/share/my_robot_description/launch/gazebo_launch.py
+[6.024s] -- Installing: /home/zhy/my_robot/my_robot_description/install/my_robot_description/share/my_robot_description/world
+[6.024s] -- Installing: /home/zhy/my_robot/my_robot_description/install/my_robot_description/share/my_robot_description/world/2023_v_4_1.world
+[6.026s] CMake Error at cmake_install.cmake:53 (file):
+[6.026s]   file INSTALL cannot find "//meshes": No such file or directory.
+[6.026s] 
+[6.026s] 
+[6.028s] Invoked command in '/home/zhy/my_robot/my_robot_description/build/my_robot_description' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/zhy/my_robot/my_robot_description/build/my_robot_description
